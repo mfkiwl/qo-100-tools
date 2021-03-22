@@ -5156,7 +5156,7 @@ Logo</text>
 </libraries>
 <attributes>
 <attribute name="CNAME" value=""/>
-<attribute name="CREVISION" value="1"/>
+<attribute name="CREVISION" value="2"/>
 <attribute name="DESIGNER" value="Joao Silva"/>
 </attributes>
 <variantdefs>
@@ -5252,7 +5252,7 @@ Logo</text>
 </part>
 <part name="C5" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
 <part name="GND19" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="C7" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100pF"/>
+<part name="C7" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="150pF"/>
 <part name="GND21" library="Supply Symbol" deviceset="GND" device=""/>
 <part name="C21" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100pF"/>
 <part name="L13" library="Inductor" deviceset="INDUCTOR" device="-0603" value="470nH"/>
@@ -5453,7 +5453,7 @@ Logo</text>
 </part>
 <part name="C6" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
 <part name="GND64" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="C8" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100pF"/>
+<part name="C8" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="150pF"/>
 <part name="GND66" library="Supply Symbol" deviceset="GND" device=""/>
 <part name="C22" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100pF"/>
 <part name="L15" library="Inductor" deviceset="INDUCTOR" device="-0603" value="470nH"/>
@@ -5499,8 +5499,8 @@ Logo</text>
 <part name="5V00003" library="Supply Symbol" deviceset="5V0" device=""/>
 <part name="CON1" library="JST" deviceset="3P" device="-SH-SIDE" value="3P-SH-SIDE"/>
 <part name="GND24" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="R4" library="Resistor" deviceset="RESISTOR" device="-0603" value="0 Ohms"/>
-<part name="R5" library="Resistor" deviceset="RESISTOR" device="-0603" value="0 Ohms"/>
+<part name="R4" library="Resistor" deviceset="RESISTOR" device="-0603" value="100 Ohms"/>
+<part name="R5" library="Resistor" deviceset="RESISTOR" device="-0603" value="100 Ohms"/>
 <part name="C3" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
 <part name="GND26" library="Supply Symbol" deviceset="GND" device=""/>
 <part name="3V3" library="Supply Symbol" deviceset="3V3" device=""/>
@@ -5530,9 +5530,9 @@ Logo</text>
 <part name="GND60" library="Supply Symbol" deviceset="GND" device=""/>
 <part name="C4" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="1uF"/>
 <part name="U1" library="EFM32" deviceset="EFM32TG11B1*M32" device="" technology="20F128G"/>
-<part name="R45" library="Resistor" deviceset="RESISTOR" device="-0603" value="1K Ohms"/>
+<part name="R45" library="Resistor" deviceset="RESISTOR" device="-0603" value="47K Ohms"/>
 <part name="3V14" library="Supply Symbol" deviceset="3V3" device=""/>
-<part name="R46" library="Resistor" deviceset="RESISTOR" device="-0603" value="1K Ohms"/>
+<part name="R46" library="Resistor" deviceset="RESISTOR" device="-0603" value="47K Ohms"/>
 <part name="3V15" library="Supply Symbol" deviceset="3V3" device=""/>
 </parts>
 <sheets>

@@ -8,7 +8,8 @@ class IPMA
             host: "api.ipma.pt",
             port: 443,
             path: "/open-data/observation/meteorology/stations/stations.json",
-            method: "GET"
+            method: "GET",
+            timeout: 5000
         };
 
         let res = await https_request(req_options);
@@ -27,7 +28,8 @@ class IPMA
             host: "api.ipma.pt",
             port: 443,
             path: "/open-data/distrits-islands.json",
-            method: "GET"
+            method: "GET",
+            timeout: 5000
         };
 
         let res = await https_request(req_options);
@@ -67,7 +69,8 @@ class IPMA
             host: "api.ipma.pt",
             port: 443,
             path: "/open-data/forecast/meteorology/cities/daily/hp-daily-forecast-day" + day + ".json",
-            method: "GET"
+            method: "GET",
+            timeout: 5000
         };
 
         let res = await https_request(req_options);
@@ -88,7 +91,7 @@ class IPMA
 
         let forecast_date = new Date(res.body.forecastDate);
 
-        for(let forecast of res.body.data)
+        for(const forecast of res.body.data)
         {
             if(forecast.globalIdLocal !== this.location.globalIdLocal)
                 continue;
@@ -109,7 +112,8 @@ class IPMA
             host: "api.ipma.pt",
             port: 443,
             path: "/open-data/observation/meteorology/stations/obs-surface.geojson",
-            method: "GET"
+            method: "GET",
+            timeout: 5000
         };
 
         let res = await https_request(req_options);
@@ -127,7 +131,7 @@ class IPMA
 
         let ret = [];
 
-        for(let observation of res.body.features)
+        for(const observation of res.body.features)
         {
             if(!observation.properties)
                 continue;
@@ -179,7 +183,8 @@ class IPMA
             host: "api.ipma.pt",
             port: 443,
             path: "/open-data/observation/meteorology/stations/observations.json",
-            method: "GET"
+            method: "GET",
+            timeout: 5000
         };
 
         let res = await https_request(req_options);
